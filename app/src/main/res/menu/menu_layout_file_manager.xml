@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/open_camera_menu_layout_file_manager"
+        android:title="@string/open_camera" />
+    <item
+        android:id="@+id/new_folder_menu_layout_file_manager"
+        android:title="@string/new_folder" />
+    <item
+        android:id="@+id/settings_menu_layout_file_manager"
+        android:title="@string/settings" />
+</menu>

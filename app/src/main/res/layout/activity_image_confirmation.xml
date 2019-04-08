@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ImageConfirmationActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top_activity_image_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetLeft="@dimen/dp_0"
+        app:contentInsetStart="@dimen/dp_0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edit_text_file_name_activity_image_confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_8"
+                android:layout_marginStart="@dimen/dp_8"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/text_view_file_name_activity_image_confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_8"
+                android:layout_marginStart="@dimen/dp_8"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/image_view_check_activity_image_confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/image_view_close_activity_image_confirmation"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_8"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:src="@drawable/ic_check" />
+
+            <ImageView
+                android:id="@+id/image_view_close_activity_image_confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_8"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:src="@drawable/ic_close" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_top_activity_image_confirmation"
+        android:id="@+id/relative_layout_image_activity_image_confirmation">
+
+        <ImageView
+            android:id="@+id/image_view_image_activity_image_confirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

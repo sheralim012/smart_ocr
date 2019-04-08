@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout_pdf_viewer_activity_pdf_viewer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdf_view_view_activity_pdf_viewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:background="@color/light_gray" />
+
+</RelativeLayout>

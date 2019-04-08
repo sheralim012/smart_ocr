@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_option_flash_camera_activity"
+        android:title= "@string/flash" >
+        <menu>
+            <item
+                android:title="Flash Off"
+                android:id="@+id/menu_option_flash_off_camera_activity"
+                android:icon="@drawable/ic_flash_off" />
+            <item
+                android:title="Flash On"
+                android:id="@+id/menu_option_flash_on_camera_activity"
+                android:icon="@drawable/ic_flash_on" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_option_resolution_camera_activity"
+        android:title="@string/resolution" >
+        <menu android:id="@+id/menu_option_resolution">
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_option_setting_camera_activity"
+        android:title="@string/setting" />
+
+</menu>
